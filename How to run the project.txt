@@ -1,0 +1,7 @@
+Step1: Run 529_Model_Train.py to train the model. Make sure the dataset is present in /Dataset/Train and /Dataset/Test folder.
+   Step 1 will generate two file bangla_character_recognition.json and bangla_character_recognition.h5
+   
+   
+Step 2: run 529_Bangla_Character_Recognition.py. Make sure the directory of bangla_character_recognition.json and bangla_character_recognition.h5 is configured.
+        In Step 2 change the image number from 1~4 so that image keep cahnging. 
+		At last guess_the_character() will return the prediction result.
